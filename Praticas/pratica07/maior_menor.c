@@ -5,7 +5,7 @@ int main()
     int numero;
     int maior;
     int menor;
-    scanf("%i", numero);
+    scanf("%d", &numero);
 
     maior = numero;
     menor = numero;
@@ -21,9 +21,10 @@ int main()
             menor = numero;
         }
         scanf("%d", &numero);
+        printf("%d %d ", maior, menor);
     }
 
-    printf("%d %d ", maior, menor);
+    
 
     return 0;
 }
